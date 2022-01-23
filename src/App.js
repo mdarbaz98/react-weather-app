@@ -12,11 +12,11 @@ function App() {
     axios
       .get(`${baseUrl}weather?q=${inputValue}&units=metric&appid=${apiKey}`)
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setData(res.data);
       })
       .catch((err) => {
-        console.log("error", err);
+        // console.log("error", err);
       });
   };
 
