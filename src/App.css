@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#App {
+  height: 100vh;
+  width: 100%;
+  color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.glass-card {
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 24px 50px rgb(0 0 0 / 25%);
+}
+
+.sunny {
+  background-image: url("../public/images/sunny.jpg");
+}
+
+.cloud {
+  background-image: url("../public/images/cloud.jpg");
+}
+
+.haze {
+  background-image: url("../public/images/haze.png");
+}
+
+.clear {
+  background-image: url("../public/images/clear.jpg");
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px;
+  text-transform: capitalize;
+  border: #cecece solid 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.fa-search {
+  font-size: 20px;
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  height: 100%;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.temp {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 25px;
+}
+
+.something {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../public/images/went.jpg') no-repeat cover;
+}
