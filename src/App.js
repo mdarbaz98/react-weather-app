@@ -53,7 +53,7 @@ function App() {
             }}
           />
           <button onClick={getWeather}>
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
           </button>
         </div>
         <h2>{data.name}</h2>
